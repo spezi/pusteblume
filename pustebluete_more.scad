@@ -91,7 +91,7 @@ module unten() {
             //sphere(130,center = true);
         
         translate([600, 0, 0])
-            cylinder(h=400, r=50, center=true);
+            cylinder(h=400, r=30, center=true);
         
         }
            
@@ -113,7 +113,7 @@ module demo() {
         difference() { 
             sphere(100,center = true);
             translate([0, 0, -70])    
-                cylinder(h=100, r=50, center=true);
+                cylinder(h=100, r=30, center=true);
         }
     }
 
